@@ -23,16 +23,16 @@
 		  color: black;
 		}
 		
-		/* color for current link */
+		/* color for current navbar link */
 		.topnav a.active {
-		  background-color: magenta	;
+		  background-color: blueviolet	;
 		  color: honeydew;
 		}
-		/* following CSS box model for text parts */
+		/* following CSS box model for text parts with infobox class */
 		.infobox {
 		  width: 300px;
 		  border: 5px solid gray;
-		  border-color: magenta	;
+		  border-color: blueviolet	;
 		  padding: 14px;
 		  margin: 16px 0px;
 		  background-color: honeydew;
