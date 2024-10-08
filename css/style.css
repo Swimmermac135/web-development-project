@@ -11,14 +11,8 @@
 		
 		.flexrow {
 		  display: flex;
-		  flex-direction: row; /* Makes the flex children (columns) appear in a row */
-		  justify-content: space-between; /* Adjusts spacing between columns */
-		}
-		
-		.flexrow {
-		  display: flex;
-		  flex-direction: row; /* Makes the flex children (columns) appear in a row */
-		  justify-content: space-between; /* Adjusts spacing between columns */
+		  flex-direction: row;
+		  justify-content: center;
 		}
 		
 		/* Add back blackground to top nav bar */
@@ -51,16 +45,18 @@
 		/* following CSS box model for text parts with infobox class */
 		.infobox {
 		  border-radius: 25px;
-		  width: 300px;
+		  align-self:center;
+		  width: 1000px;
 		  border: 5px solid gray;
 		  border-color: blueviolet	;
 		  padding: 14px;
 		  margin: 16px 0px;
 		  background-color: honeydew;
+		  
 		}
 		/* following CSS box model for text parts with infobox class, but alligns to the side of the imagebox */
 		.infoboxaboutme {
-		  text-align:left;
+		  text-align: left;
 		  border-radius: 25px;
 		  width: 600px;
 		  border: 5px solid gray;
@@ -100,7 +96,7 @@
 		  color: #f2f2f2;
 		  cursor: pointer;
 		  padding: 18px;
-		  width: 100%;
+		  width: 200%;
 		  border: 5px solid gray;
 		  border-color: blueviolet	;
 		  text-align: center;
@@ -123,6 +119,7 @@
 		  margin: -29px 32px;
 		  background-color: honeydew;
 		  max-height: 0;
+		  width: 150%;
 		  overflow: hidden;
 		  transition: max-height 0.2s ease-out;
 		}
