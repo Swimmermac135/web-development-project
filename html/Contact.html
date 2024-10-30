@@ -12,16 +12,26 @@
 <body>
     <!-- Set up the top navigation bar -->
 	<div class="topnav">
-    <a href="Home.html">Home</a>
-    <a class="active" href="Contact.html">Contact</a>
-    <a href="Aboutme.html">About</a>
+		<a href="Home.html">Home</a>
+		<a class="active" href="/">Contact</a>
+		<a href="Aboutme.html">About</a>
 	</div>
+	
 	<div class="infoboxcentered">
 			<i>Contact Me! Please dont actually, these is fake information anyways.</i><br>
 			<i>Cell: 123-444-5665</i><br>
 			<i>Email: websiteconstructor@gmail.com</i><br>
-			<i>This will later be replaced with a submission form.</i>
+			<i>OR Input your data below and submit to send me a message!</i>
+			
+			<form action="/submit-form" method="post">
+				<label for="username">Name:</label>
+				<input type="text" id="username" name="username" required>
+				<label for="message">Message:</label>
+				<input type="text" id="message" name="message" required>
+				<button type="submit">Submit</button>
+			</form>
 	</div>
+
 </body>
 
 </html>
