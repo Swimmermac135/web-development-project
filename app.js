@@ -5,7 +5,6 @@ const port = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 
-// Serve HTML, CSS, and JavaScript files from their respective folders
 app.use('/html', express.static(path.join(__dirname, 'html')));
 app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/js', express.static(path.join(__dirname, 'js')));
